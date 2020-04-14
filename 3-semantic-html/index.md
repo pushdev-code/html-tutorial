@@ -23,7 +23,7 @@ Refers to the meaning or additional information granted by the elements or label
 
 ![image](https://user-images.githubusercontent.com/36536646/79190057-ee2c8080-7de8-11ea-95e4-cee11d2c820b.png)
 
-* Document structure: HTML5 has added a slew of new tags that can be used to add rich semantic meaning to the structure of an HTML document
+Document structure: HTML5 has added a slew of new tags that can be used to add rich semantic meaning to the structure of an HTML document
 
 ```html
 <body>
@@ -50,7 +50,8 @@ Refers to the meaning or additional information granted by the elements or label
     </footer>
 </body>
 ```
-* Textual meaning: Arrange, fonts and style text.
+
+Textual meaning: Arrange, fonts and style text.
 
 ```html
 <body>
@@ -70,7 +71,6 @@ Refers to the meaning or additional information granted by the elements or label
             </cite>
             by Steve Jobs
         </blockquote>
-
     </main>
     <footer>
         <p>This example was created <time datetime="2020-04-12 11:21">at 11:21 AM</time></p>
@@ -78,7 +78,7 @@ Refers to the meaning or additional information granted by the elements or label
 </body>
 ```
 
-* Media type:  The browser the need to queue up a specific technical resource... and they are semantic tags.
+Media type: The browser the need to queue up a specific technical resource... and they are semantic tags.
 
 ```html
     <audio controls>
@@ -108,8 +108,8 @@ Refers to the meaning or additional information granted by the elements or label
           </figure>
 ```
 
-* Read more: https://html.com/document/#ixzz6JbS4IkTf
-* Let's see more examples: [Semantic structure](https://www.internetingishard.com/html-and-css/semantic-html/)
+Read more: https://html.com/document/#ixzz6JbS4IkTf
+Let's see more examples: [Semantic structure](https://www.internetingishard.com/html-and-css/semantic-html/)
 
 ## Do vs Don't
 
