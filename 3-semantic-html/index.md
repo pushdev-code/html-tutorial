@@ -135,6 +135,10 @@ Build in HTML a simple form with semantic structure. The form must have the foll
 
 ![image](https://user-images.githubusercontent.com/36536646/79253891-88bcac00-7e49-11ea-8a6f-4ed64a99113b.png)
 
+* Inside the ```<main>``` tag include an article like this:
+
+![DOM](https://user-images.githubusercontent.com/36536646/79254810-e69dc380-7e4a-11ea-9f5e-75c6b8efec0b.png)
+
 ## Source
 
 * [Semantic structure](https://www.internetingishard.com/html-and-css/semantic-html/)
