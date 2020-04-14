@@ -7,7 +7,6 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
 * [Writing other HTML Tags](2-other-html-tags)
 * [Writing semantic HTML](3-semantic-html)
 * [Forms and validations](4-forms-validations)
-* Conventions and best practices
-* [Accesibility](5-Accesibility)
+* [Accessibility](5-Accessibility)
 * [SEO basics](6-seo-basics)
 * TODO@you: Code an HTML form with semantic tags, accesibility and SEO best practices.

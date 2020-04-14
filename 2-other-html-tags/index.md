@@ -51,9 +51,9 @@ Ordered lists in which the numbers are important.
 
 ```html
 <ol>
-  <li>technologists</li>
-  <li>thinkers</li>
-  <li>builders</li>
+  <li>this goes first</li>
+  <li>the second one goes here</li>
+  <li>and the third option appears here</li>
 </ol>
 ```
 

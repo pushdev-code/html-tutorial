@@ -16,7 +16,7 @@ Refers to the meaning or additional information granted by the elements or label
 ## Why we should care about semantics?
 
 * Provides additional information about that document, which aids in communication.
-* Semantic tags make it clear to the browser what the meaning of a page and its content is. 
+* Semantic tags make it clear to the browser what the meaning of a page and its content is.
 * That clarity is also communicated with search engines, ensuring that the right pages are delivered for the right queries.
 
 ## Ambiguous vs Semantic
@@ -51,6 +51,7 @@ Refers to the meaning or additional information granted by the elements or label
 </body>
 ```
 * Textual meaning: Arrange, fonts and style text.
+
 ```html
 <body>
     <header>
@@ -76,7 +77,9 @@ Refers to the meaning or additional information granted by the elements or label
     </footer>
 </body>
 ```
+
 * Media type:  The browser the need to queue up a specific technical resource... and they are semantic tags.
+
 ```html
     <audio controls>
             <!--
@@ -104,6 +107,7 @@ Refers to the meaning or additional information granted by the elements or label
             </figcaption>
           </figure>
 ```
+
 * Read more: https://html.com/document/#ixzz6JbS4IkTf
 * Let's see more examples: [Semantic structure](https://www.internetingishard.com/html-and-css/semantic-html/)
 
@@ -122,7 +126,7 @@ Refers to the meaning or additional information granted by the elements or label
       <!-- nav content -->
       </nav>
    </header>
-   
+
   <footer>
      <!-- footer content -->
     <p> PushDev 2020 </p>
@@ -131,11 +135,11 @@ Refers to the meaning or additional information granted by the elements or label
 
 ## Homework
 
-Build in HTML a simple form with semantic structure. The form must have the following elements:
+Build in HTML a simple layout with semantic structure. The layout must have the following elements:
 
 ![image](https://user-images.githubusercontent.com/36536646/79253891-88bcac00-7e49-11ea-8a6f-4ed64a99113b.png)
 
-* Inside the ```<main>``` tag include an article like this:
+* Inside the ```<main>``` tag include an article that follows this structure:
 
 ![DOM](https://user-images.githubusercontent.com/36536646/79254810-e69dc380-7e4a-11ea-9f5e-75c6b8efec0b.png)
 
