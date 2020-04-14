@@ -4,6 +4,7 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
 ## Topics:
 
 * [The basics](1-the-basics)
+* [Writing other HTML Tags](2-other-html-tags)
 * Writing semantic HTML
 * Forms and validations
 * Conventions and best practices
