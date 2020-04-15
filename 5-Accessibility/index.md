@@ -16,4 +16,4 @@ One way to ensure accessibility is to use the correct Hypertext Markup Language 
 <button>Play video</button>
 ```
 
-With using the `<button>` tag, users will be able to navigate to your button using the Tab key and submit the action using the Enter key. 
+With using the `<button>` tag, users will be able to navigate to your button using the `Tab` key and submit the action using the `Enter` key.
