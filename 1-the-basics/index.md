@@ -52,6 +52,7 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
     <title>My HTML page</title>
   </head>
