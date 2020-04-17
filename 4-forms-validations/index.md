@@ -106,3 +106,4 @@ Let's see the difference: (Form validarion)[https://developer.mozilla.org/en-US/
 
 * [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
 * [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+* [Accessibility For Beginners with HTML and CSS](https://dev.to/mxl/accessibility-for-beginners-with-html-and-css-16j7)
