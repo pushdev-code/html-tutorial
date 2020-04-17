@@ -92,14 +92,15 @@ Let's see the difference: (Form validarion)[https://developer.mozilla.org/en-US/
 
 * First name
 * Last name
-* Email-Address
-* Date of birth (using)
+* Email-Address (using email type)
+* Date of birth (using date type)
 * Gender (using select)
 * Socioeconomic status (using radiobutton)
 * Hobbies (using checkbox)
-* IMG (uearching file)
+* IMG (searching file)
 
-3. Push the changes to your local copy of the repo (Pull request).
+3. These fields must be required.
+4. Push the changes to your local copy of the repo (Pull request).
  
 ## Source
 
