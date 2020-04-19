@@ -133,9 +133,9 @@ Let's see more examples: [Semantic structure](https://www.internetingishard.com/
   </footer>
 ```
 
-## Homework
+## Exercise
 
-Build in HTML a simple layout with semantic structure. The layout must have the following elements:
+1. Build in HTML a simple layout with semantic structure. The layout must have the following elements:
 
 ![image](https://user-images.githubusercontent.com/36536646/79253891-88bcac00-7e49-11ea-8a6f-4ed64a99113b.png)
 
