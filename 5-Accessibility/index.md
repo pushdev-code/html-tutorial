@@ -24,6 +24,44 @@ Here if you use the `<button>` tag, users will be able to navigate to your butto
 * __Better on mobile__: semantic HTML is arguably lighter in file size than non-semantic spaghetti code, and easier to make responsive.
 * __Good for SEO__: search engines give more importance to keywords inside headings, links, etc., than keywords included in non-semantic <div>s, etc., so your documents will be more findable by customers.
 
+## Accessibility in language
+
+The HTML lang attribute is used to identify the language of text content on the web. This information helps search engines return language specific results, and it is also used by screen readers that switch language profiles to provide the correct accent and pronunciation.
+
+__Don't__
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Language page</title>
+  </head>
+  <body>
+    <p>This page is written in English.</p>
+    <p>Sauf pour ce qui est écrit en mauvais français.</p>
+  </body>
+</html>
+```
+
+__Do__
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Language page</title>
+  </head>
+  <body>
+    <p>This page is written in English.</p>
+    <p lang="fr">Sauf pour ce qui est écrit en mauvais français.</p>
+  </body>
+</html>
+```
+
 ## Accessibility in text content
 
 One of the best accessibility aids a screenreader user can have is a good content structure with headings, paragraphs, lists, etc.
@@ -482,3 +520,4 @@ Creating an accessible HTML form.
 
 * [HTMLDog - Accessible forms](https://htmldog.com/guides/html/advanced/forms/)
 * [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+* [Using the HTML lang attribute](https://developer.paciellogroup.com/blog/2016/06/using-the-html-lang-attribute/)

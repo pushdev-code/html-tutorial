@@ -15,5 +15,8 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
   3. Copy the layout from [3-semantic-html](3-semantic-html) into the `form.html` file.
   4. Inside the `<section>` element, copy the `<form>` from [5-Accessibility](5-Accessibility).
   5. Follow the steps to optimize the form for SEO.
-  6. Run a lighthouse test and check the results.
-  7. Can you make more optimizations?
+  6. Enable your fork repo to use github pages by going to repo settings and select master branch as Source.
+  7. Go to your `github.io/html-tutorial/` url.
+  8. Install [Lighthouse Chrome plugin](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es)
+  9. Run a lighthouse test without selecting `progressive web app` and check the results
+  10. Can you make more optimizations?
