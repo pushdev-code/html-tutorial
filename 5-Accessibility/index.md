@@ -260,7 +260,7 @@ See [content sectioning reference](https://developer.mozilla.org/en-US/docs/Web/
 * required
 * placeholder
 
-More on https://www.html5accessibility.com/
+More on [HTML5 Accessibility](https://www.html5accessibility.com/).
 
 ## Accessibility in UI Controls
 
@@ -390,7 +390,7 @@ Some examples with `<img>` element:
 | `<img src="dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth." title="The Mozilla red dinosaur">` | alt text, the title attribute, and the filename
 | `<img src="dinosaur.png" aria-labelledby="dino-label"><p id="dino-label">The Mozilla red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.</p>`| paragraph content, defined in `aria-labelledby` attribute
 
-The last example in the table is useful to use the same description text for multiple images.
+The last example in the table is useful, because you can reuse the same description text for multiple images.
 
 ## Decoration images
 
@@ -468,11 +468,11 @@ Creating an accessible HTML form.
 
 ![Accessible form exercise](https://user-images.githubusercontent.com/61557537/79698080-1fbfa480-824c-11ea-8e18-a95450513f8a.png)
 
-* Make sure the form is accessible by navigating the inputs with the keyboard.
-* Include descriptions for those elements that express they're required.
-* Use labels for input elements.
-* Use fieldsets and legends.
-* Use aria-attributes to indicate the inputs that are required.
+  * Make sure the form is accessible by navigating the inputs with the keyboard.
+  * Include descriptions for those elements that express they're required.
+  * Use labels for input elements.
+  * Use fieldsets and legends.
+  * Use aria-attributes to indicate the inputs that are required.
 
 4. Commit your changes
 5. Push the changes to your local copy of the repo.
