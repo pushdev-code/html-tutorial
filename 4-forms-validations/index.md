@@ -83,7 +83,13 @@ There are two different types of client-side validation that you'll encounter on
     <label for="number">How old are you?</label>
     <input type="number" id="number" name="amount" value="1" min="1" max="100">
 ```
+Other validations:
 
+* __required__: Specifies whether a form field needs to be filled in before the form can be submitted.
+* __minlength and maxlength__: Specifies the minimum and maximum length of textual data (strings)
+* __min and max__: Specifies the minimum and maximum values of numerical input types
+* __type__: Specifies whether the data needs to be a number, an email address, or some other specific preset type. 
+* __pattern__: Specifies a regular expression that defines a pattern the entered data needs to follow.
 * JavaScript validation: is coded using JavaScript. This validation is completely customizable, but you need to create it all (or use a library).
 
 Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
