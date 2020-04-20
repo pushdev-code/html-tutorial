@@ -86,7 +86,7 @@ There are two different types of client-side validation that you'll encounter on
 
 * JavaScript validation: is coded using JavaScript. This validation is completely customizable, but you need to create it all (or use a library).
 
-Let's see the difference: [Form validarion](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
 
 ![image](https://user-images.githubusercontent.com/36536646/79614339-ec530d80-80c5-11ea-9f5e-2cbe037d7160.png)
 
