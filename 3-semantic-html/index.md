@@ -135,13 +135,16 @@ Let's see more examples: [Semantic structure](https://www.internetingishard.com/
 
 ## Exercise
 
-1. Build in HTML a simple layout with semantic structure. The layout must have the following elements:
+1. Inside your fork html-tutorial repo, under the 3-semantic-html folder, create a file named basic.html Don't forget to include the .html extension
+2. Build in HTML a simple layout with semantic structure. The layout must have the following elements:
 
 ![image](https://user-images.githubusercontent.com/36536646/79253891-88bcac00-7e49-11ea-8a6f-4ed64a99113b.png)
 
 * Inside the ```<main>``` tag include an article that follows this structure:
 
 ![DOM](https://user-images.githubusercontent.com/36536646/79254810-e69dc380-7e4a-11ea-9f5e-75c6b8efec0b.png)
+
+3. Push the changes to your local copy of the repo. Remember to invite pushdev-code to tour repo as collaborator
 
 ## Source
 
