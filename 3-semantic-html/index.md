@@ -144,7 +144,7 @@ Let's see more examples: [Semantic structure](https://www.internetingishard.com/
 
 ![DOM](https://user-images.githubusercontent.com/36536646/79254810-e69dc380-7e4a-11ea-9f5e-75c6b8efec0b.png)
 
-3. Push the changes to your local copy of the repo. Remember to invite pushdev-code to tour repo as collaborator
+3. Push the changes to your local copy of the repo. Remember to invite pushdev-code to your repo as collaborator
 
 ## Source
 
