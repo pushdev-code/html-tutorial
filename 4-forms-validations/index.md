@@ -80,8 +80,25 @@ There are two different types of client-side validation that you'll encounter on
 * Built-in form validation: uses HTML5 form validation features. Built-in form validation has better performance than JavaScript, but it is not as customizable as JavaScript validation.
 
 ```html
+<form>
     <label for="number">How old are you?</label>
     <input type="number" id="number" name="amount" value="1" min="1" max="100">
+
+    <label for="t2">What's your favorite sport<abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+        <input type="text" id="t2" name="sport" list="l2" required pattern="[Ss]occer|[Bb]asketball|[Hh]ockey|[Tt]ennis|[Vv]olleyball">
+        <datalist id="l1">
+          <option>Soccer</option>
+          <option>Basketball</option>
+          <option>Hockey</option>
+          <option>Tennis</option>
+          <option>Volleyball</option>
+        </datalist>
+
+       <p>
+          <label for="t3">Leave your personal description</label>
+          <textarea id="t3" name="msg" maxlength="100" rows="5"></textarea>
+       </p>
+</form>
 ```
 Other validations:
 
@@ -94,8 +111,32 @@ Other validations:
 
 Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
 
-![image](https://user-images.githubusercontent.com/36536646/79614339-ec530d80-80c5-11ea-9f5e-2cbe037d7160.png)
+## Submit-Rest button
+* A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the <form> element.
+* The <button> element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
+* A click on a reset button resets all the form widgets to their default value immediately. This is considered bad practice, so you should avoid using this type of button unless you really have a good reason to include one.
+  
+```html
+  <button type="submit">Validate the payment</button>
 
+  <button type="reset">Reset</button>
+```
+
+* If you include a button in a form element without specifying the type, by default it's a  `submit` button. Semantics usually become important, so it's a good idea to make a habit of specifying the type.
+
+```html
+<form>
+    <button>I will submit the form when clicked!</button>
+</form>
+
+//vs
+
+<form>
+    <button type='button'>I won't!</button>
+</form>
+```
+
+![image](https://user-images.githubusercontent.com/36536646/79614339-ec530d80-80c5-11ea-9f5e-2cbe037d7160.png)
 
 ## Exercise
 
