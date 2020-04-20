@@ -111,7 +111,7 @@ Other validations:
 
 Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
 
-## Submit-Rest button
+## Submit - Reset buttons
 * A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the <form> element.
 * The <button> element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
 * A click on a reset button resets all the form widgets to their default value immediately. This is considered bad practice, so you should avoid using this type of button unless you really have a good reason to include one.
@@ -121,6 +121,9 @@ Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/
 
   <button type="reset">Reset</button>
 ```
+## Should I specify the button type?
+
+![image](https://user-images.githubusercontent.com/36536646/79809380-e82d2700-8335-11ea-80a7-b0d6e29b1be5.png)
 
 * If you include a button in a form element without specifying the type, by default it's a  `submit` button. Semantics usually become important, so it's a good idea to make a habit of specifying the type.
 
@@ -135,9 +138,6 @@ Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/
     <button type='button'>I won't!</button>
 </form>
 ```
-
-![image](https://user-images.githubusercontent.com/36536646/79614339-ec530d80-80c5-11ea-9f5e-2cbe037d7160.png)
-
 ## Exercise
 
 1. Inside your `4-forms-validations` folder create a file named `form.html`.
