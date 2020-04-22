@@ -8,7 +8,7 @@
 ## How to structure a web form
 
 * The `<form>` element formally defines a form and attributes that determine the form's behavior.
-* The URL that processes the form submission. This value can be overridden by a formaction attribute on a <button>, <input type="submit">, or <input type="image"> element.
+* The URL that processes the form submission. This value can be overridden by a formaction attribute on a `<button>`, `<input type="submit">`, or `<input type="image">` element.
   
 ```html
     <form action="">
@@ -113,7 +113,7 @@ Let's see the difference: [Form validation](https://developer.mozilla.org/en-US/
 
 ## Submit - Reset buttons
 * A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the <form> element.
-* The <button> element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
+* The `<button>` element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
 * A click on a reset button resets all the form widgets to their default value immediately. This is considered bad practice, so you should avoid using this type of button unless you really have a good reason to include one.
   
 ```html
