@@ -64,7 +64,6 @@ Textual meaning: Arrange, fonts and style text.
         <blockquote>
             "Everybody in this country should learn how to program a computer...
             because it teaches you how to think."
-            <br>
             - from
             <cite>
                 The Lost Interview
