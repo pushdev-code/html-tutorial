@@ -1,0 +1,112 @@
+<p>Welcome to PintaYa Form
+    <br>
+    <img heiht = " 100" width = "100" src ="C:\Users\Bivi Anne\Documents\push-dev\html-tutorial\4-forms-validations/pinta.jpg  " alt = "PintaYa"/>
+</p>
+<p>Dear costumer, please fill in the requested data, in order you to have your products as soon as possible</p>
+<form action="">
+    <label for="personal information">Personal Information</label>
+    <fieldset>
+        <legend>Please, check and fill next blanck spaces:</legend>
+    <label for="first name">First Name</label>
+    <input type= "text" id= "name" name= "user_name" >
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    <br>
+    <label for="last name">Last Name</label>
+    <input type= "text" id= "last_name" name= "user_last_name" >
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    <br>
+    <label for="date of birth">Date of Birth</label>
+    <input type= "date" id= "birthday" name= "user_birthday" step="1" min="1990-01-01" max="2020-01-01" >
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    </fieldset>
+    <br>
+
+    <label for="gender">Gender</label>
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    <fieldset>
+        <legend>Please, select the gende you are identified:</legend>
+        <input id= "male" type= "radio" name= "male" value= "male" >
+        <label for= "male" > Basic web development </label>
+        <br>
+        <input id= "female" type= "radio" name= "femalep" value= "female" >
+        <label for= "female" > Advanced web development </label>
+        <br>
+        <input id= "other" type= "radio" name= "other" value= "other" >
+        <label for= "other" > Advanced web development </label>
+
+    </fieldset>
+    <br>
+
+    <label for="Contact Information">Contact Information</label>
+   <fieldset>
+        <legend>Conatact Information</legend>
+    <label for="celular number">Celular Conatct Number</label>
+    <input type="number" id= "celular number" name= "user_number">
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    <br>
+
+    <label for="e-mail">e-mail</label>
+    <input type="email" name="e-mail" required="required" oninvalid="setCustomValidity('share us your email')" oninput="setCustomValidity('')">
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    </fieldset>
+    <br>
+
+    <label for="pkind of person">Kind of Person</label>
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    <fieldset>
+        <legend>Please, select what kin of person you are</legend>
+        <label for="Personal Status">Personal Status</label>
+        <select name="avaible procducts" id="products"> 
+            <datalist id="list1">
+            <option value="natural">Natural</option>
+            <option value="legal">Legal</option>
+        </datalist>
+        </select>
+    </fieldset>
+    <br>
+
+
+    <label for="products">Products</label>
+    <abbr title= "required" aria-label= "required" > * </abbr>
+    <fieldset>
+        <legend>Please, select the products that you're interested in:</legend>
+        <label>
+            <input type="checkbox" id="cb1" value="first_value">
+            Acrylic Enamel
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="cb2" value="second_value">
+            Synthetic Enamel
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="cb3" value="third_value">
+            Painting Type I
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="cb4" value="fourth_value">
+            Painting Type II
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="cb5" value="fifth_value">
+            Lacquer
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="cb6" value="sixth_value">
+            Vinyl
+        </label>
+    </fieldset>
+    <br>
+
+    <p>
+        <label for= "t" > Please, if you have any comment or sugestion, leave your messge </label>
+        <br>
+        <textarea id= "t" name= "msg" maxlength= "500" rows= "10" ></textarea>
+    </p>
+    <br>
+    <input type="submit" value="Submit">   
+</form>
