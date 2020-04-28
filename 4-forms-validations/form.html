@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
+        <meta name="description" content="AUTHORIZATION FORM">
+        <meta name="keywords" content="FORM, LEARNING, PROGRAMING">
+        <meta name="author" content="Jaime Moreno"> 
+        <title>AUTHORIZATION</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>PERSONAL INFO</h1>
+        </header>
+        <main>
+            <form>
+            <label for="name">
+                First Name: <input type="text" id="first_name" name="first_name" required>
+                <abbr title="required" aria-label="required">*</abbr>
+            </label>
+            <label for="name">
+                Last Name: <input type="text" id="second_name" name="second_name" required> 
+                <abbr title="required" aria-label="required">*</abbr>
+            </label>  
+            <label for="name">
+                Email: <input type="email" id="email_adress" name="email_adress" required>
+                <abbr title="required" aria-label="required">*</abbr>
+            </label> 
+            <label for="name">
+                Birthday: <input type="date" id="birthday" name="user_birthday" required>
+                <abbr title="required" aria-label="required">*</abbr>
+            </label>   
+            <fieldset>
+                <legend>Gender:</legend>
+                <select id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </fieldset>     
+            <fieldset>
+                <legend>Socioeconomic Status:</legend>
+                <input id="student" type="radio" name="socioeconomic" value="student" checked>
+                <label for="student">Student</label>
+                <input id="professional" type="radio" name="socioeconomic" value="professional">
+                <label for="professional">Professional</label>
+                <input id="unfinished" type="radio" name="socioeconomic" value="unfinished">
+                <label for="unfinished">Unfinished studies</label>
+                <input id="technician" type="radio" name="socioeconomic" value="technician">
+                <label for="technician">Technician</label>
+            </fieldset>
+            <p>Hobbies:</p>   
+                <input type="checkbox" id="hobbies1" value="Sports" name="hobbies"><label for="cbox1">Sports</label>
+                <input type="checkbox" id="hobbies2" value="Videogames" name="hobbies"> <label for="cbox2">Videogames</label> 
+                <input type="checkbox" id="hobbies3" value="Reading" name="hobbies"> <label for="cbox3">Reading</label> 
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">  
+                <button type="submit">Validate the information</button>
+                <button type="reset">Reset</button>
+        </form>    
+        </main>
+    </body>
+</html>
