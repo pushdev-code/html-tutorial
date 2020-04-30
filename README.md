@@ -9,7 +9,6 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
 * [Forms and validations](4-forms-validations)
 * [Accessibility](5-Accessibility)
 * [SEO basics](6-seo-basics)
-
 <iframe id="exercise" width="1024" height="768"></iframe>
 
   <script>
