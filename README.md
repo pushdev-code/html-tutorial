@@ -21,13 +21,18 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
   9. Run a lighthouse test in the form url you just published, without selecting `progressive web app` and check the results.
   10. Can you make more optimizations?
 
+  <iframe id="exercise" width="1024" height="768"></iframe>
+
   <script>
   function getUrlVars() {
-      var vars = {};
-      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+      let vars = {};
+      let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
           vars[key] = value;
       });
       return vars;
   }
-  alert(getUrlVars()["e"];);
+  const exerciseUrl = getUrlVars()['exercise'];
+  exercise.src = exerciseUrl || '';
   </script>
+
+  <
