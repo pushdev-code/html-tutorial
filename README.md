@@ -34,5 +34,3 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
   const exerciseUrl = getUrlVars()['exercise'];
   exercise.src = exerciseUrl || '';
   </script>
-
-  <
