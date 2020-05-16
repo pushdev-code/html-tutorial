@@ -123,7 +123,7 @@ __Do__:
 You should use clear language that is not overly complex, and doesn't use unnecessary jargon or slang terms. This not only benefits people with cognitive or other disabilities; it benefits readers for whom the text is not written in their first language, younger people ... everyone in fact! Apart from this, you should try to avoid using language and characters that don't get read out clearly by the screenreader. For example:
 
 * Don't use dashes if you can avoid it. Instead of writing 5–7, write 5 to 7.
-* Expand abbreviations — instead of writing Jan, write January.
+* Expand abbreviations — instead of writing Jan, write January. Other example: Follow US vs Follow U.S.
 * Expand acronyms, at least once or twice. Instead of writing HTML in the first instance, write Hypertext Markup Language
 
 ## Accessibility in page layouts
