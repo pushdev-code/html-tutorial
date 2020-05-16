@@ -2,6 +2,10 @@
 
 Websites should be designed and developed in such a way that people with disabilities can use them. More specifically, people can: perceive, understand, contribute and navigate in your website without too much problem. Have you ever tried to a text-to-speech app, close your eyes and try to navigate your website or webapp?
 
+## Screen Reader Demo for Digital Accessibility
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dEbl5jvLKGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 One way to ensure accessibility is to use the correct Hypertext Markup Language elements for the correct purpose at all times, so semantic is not just for SEO and indexing purposes, but for make your content accessible.
 
 __Don't__
