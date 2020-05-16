@@ -2,6 +2,10 @@
 
 Websites should be designed and developed in such a way that people with disabilities can use them. More specifically, people can: perceive, understand, contribute and navigate in your website without too much problem. Have you ever tried to a text-to-speech app, close your eyes and try to navigate your website or webapp?
 
+## Screen Reader Demo for Digital Accessibility
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dEbl5jvLKGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 One way to ensure accessibility is to use the correct Hypertext Markup Language elements for the correct purpose at all times, so semantic is not just for SEO and indexing purposes, but for make your content accessible.
 
 __Don't__
@@ -119,7 +123,7 @@ __Do__:
 You should use clear language that is not overly complex, and doesn't use unnecessary jargon or slang terms. This not only benefits people with cognitive or other disabilities; it benefits readers for whom the text is not written in their first language, younger people ... everyone in fact! Apart from this, you should try to avoid using language and characters that don't get read out clearly by the screenreader. For example:
 
 * Don't use dashes if you can avoid it. Instead of writing 5–7, write 5 to 7.
-* Expand abbreviations — instead of writing Jan, write January.
+* Expand abbreviations — instead of writing Jan, write January. Other example: Follow US vs Follow U.S.
 * Expand acronyms, at least once or twice. Instead of writing HTML in the first instance, write Hypertext Markup Language
 
 ## Accessibility in page layouts
