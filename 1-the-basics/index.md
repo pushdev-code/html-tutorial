@@ -62,7 +62,7 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_
 </html>
 ```
 
-* It should always start with `<!DOCTYPE html>`
+* It should always start with `<!DOCTYPE html>`. It is the first thing which should be present in an HTML5 document.
 * Like Human body it should have a `<head>` and `<body>`. What's in the `<head>` it won't be visible to the user, but it will what's inside the `<body>`.
 * `<meta>` is used to define the character encoding for the HTML document.
 * Without a `<title>`, users will never know what's your page about.
