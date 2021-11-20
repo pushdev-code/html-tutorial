@@ -1,8 +1,9 @@
 :root {
-  --bg-dark: #021d29;
+  --bg-dark: #6d7378;
   --bg-light: #e7e7e7;
   --txt-dark: rgb(228, 233, 236);
   --txt-light: #021d29;
+  --font: "Inter", sans-serif;
 }
 
 * {
@@ -13,17 +14,32 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font);
 }
 
 body {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   justify-content: center;
   overflow-x: hidden;
-  width: 603px;
-  border: 1px solid;
+  width: 700px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  margin-block-end: 8px;
+  text-align: center;
+}
+
+a {
+  color: var(--txt-light);
+  font-style: italic;
+}
+a:hover {
+  color: #008197;
 }
 
 .aside {
@@ -35,18 +51,49 @@ body {
   padding: 20px;
   background-color: var(--bg-dark);
   color: var(--txt-dark);
+  text-align: center;
 }
 
 .aside__photo {
-  max-width: 100px;
-  height: 100px;
+  max-width: 130px;
+  height: 130px;
+  margin-block-end: 20px;
+}
+
+.aside__link--github {
+  display: flex;
+  align-items: center;
+  color: var(--txt-dark);
+  text-decoration: none;
+  margin-block-end: 20px;
+  font-weight: 600;
+  font-size: 0.96rem;
+}
+
+.aside__link--github img {
+  width: 31px;
 }
 
 .aside__photo img {
   object-fit: cover;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
+}
+
+.aside__desc {
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+.aside__desc p {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+.aside__skills {
+  text-transform: uppercase;
+  margin-block-end: 20px;
 }
 
 .aside__skills ul {
@@ -59,11 +106,56 @@ body {
   width: 28px;
 }
 
+.aside__contact {
+  text-transform: uppercase;
+}
+
+.aside__contact img {
+  width: 30px;
+  margin: 10px;
+}
+
 .main {
-  align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
   color: var(--txt-light);
+}
+
+.main__header {
+  width: 80%;
+  height: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-block-start: 70px;
+}
+
+.main__header h2 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.main__header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-dark);
+  color: var(--txt-dark);
+  height: 30px;
+}
+
+.main__degree {
+  width: 90%;
+}
+
+.main ul {
+  padding-inline-start: 25px;
+}
+
+.main__degree--item {
+  margin-block-end: 10px;
+}
+
+.projects {
+  width: 90%;
 }
