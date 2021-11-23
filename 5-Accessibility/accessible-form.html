@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-Accessibility</title>
+    <style>
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      header {
+        text-align: center;
+      }
+      fieldset {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-block-end: 10px;
+      }
+      label {
+        margin-block: 4px;
+      }
+      .message {
+        display: flex;
+        flex-direction: column;
+        margin-block-end: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Form Accessibility</h1></header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Please enter your contact details</legend>
+
+          <label for="name"
+            >Your name (required):
+            <input type="text" name="name" id="name" required
+          /></label>
+          <label for="email"
+            >E-mail address (required):
+            <input type="text" name="email" id="email" required
+          /></label>
+          <label for="phone"
+            >Phone number (+57) (optional):
+            <input type="text" name="phone" id="phone"
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Please select the courses that you are interested in (required):
+          </legend>
+          <label for="web">
+            <input type="checkbox" name="web" id="web" />
+            Web Developer
+          </label>
+          <label for="react">
+            <input type="checkbox" name="react" id="react" />
+            React Developer
+          </label>
+          <label for="fullstack">
+            <input type="checkbox" name="fullstack" id="fullstack" />
+            Fullstack Developer
+          </label>
+          <label for="other">
+            <input type="checkbox" name="other" id="other" />
+            Other
+          </label>
+        </fieldset>
+        <div class="message">
+          <label for="message"> Please enter a message (optional) </label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Send message</button>
+        <button type="reset">Reset form</button>
+      </form>
+    </main>
+  </body>
+</html>
