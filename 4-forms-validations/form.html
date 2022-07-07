@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de validación</title>
+</head>
+<body>
+
+    <form action="">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="user_name">
+        <label for="name">Apellido</label>
+        <input type="text" id="apellido" name="user_name"> <br>
+        <label for="mail">Correo Electrónico</label>
+        <input type="email" id="mail" name="user_mail" >
+        <label for="date"> fecha</label>
+        <input type="date" id="start" name="trip-start"
+         value="2018-07-22"
+          min="2018-01-01" max="2022-12-31"><br>
+        <input type="radio" name="Hombre" value="Hombre"> Hombre
+
+        <input type="radio" name="Mujer" value="Mujer"> Mujer <br>
+        <label for="">Estrato 2 </label>
+        <input type="radio" name="socioeconómico">
+
+        <p>Hobbis</p>
+        <label>Ciclismo<input type="checkbox" id="cbox1" value="checkbox"></label><br>
+        <label>Patinaje<input type="checkbox" id="cbox2" value="checkbox"></label><br>
+        <label>Gym<input type="checkbox" id="cbox3" value="checkbox"></label><br>
+        <label>Baloncesto<input type="checkbox" id="cbox4" value="checkbox"></label><br>
+        <form name="subir-imagen" type="POST" enctype="multipart/formdata" > <input type="file" name="imagen" />
+        <button>Enviar</button>
+        
+
+
+    </form>
+    
+</body>
+</html>
