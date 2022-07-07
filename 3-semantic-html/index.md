@@ -152,21 +152,3 @@ Let's see more examples: [Semantic structure](https://www.internetingishard.com/
 * [Element list](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos)
 
 
-<header>
-<div>h1</div>
-  <nav>Navegación</nav>
-</header>
-
-<main>
-<div>article</div>
-<div>section</div>
-</main>
-
----> <aside>
-<div>content</div>
-</aside>
-
-<footer>
-<div>footer</div>
-<nav>Navegación</nav>
-</footer>
